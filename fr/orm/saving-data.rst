@@ -1202,7 +1202,7 @@ construire les Types de colonne personnalisés::
 
         protected function _initializeSchema(TableSchema $schema)
         {
-            $schema->columnType('preferences', 'json');
+            $schema->setColumnType('preferences', 'json');
             return $schema;
         }
 
